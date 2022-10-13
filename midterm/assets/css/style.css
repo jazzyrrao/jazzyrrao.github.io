@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background: #D7CDC4;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar-item {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 20;
+	opacity: 0.5;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color:#1f1f1f;
+    position: relative;
+}
+
+.navbar-item:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.navbar-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #1f1f1f;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+  }
+
+.navbar-item:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#image-banner {
+    background-image: url('../img/eaters-collective-ddZYOtZUnBk-unsplash\ 1.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.content {
+    position: relative;
+}
+  
+.shop-name {
+    position: absolute;
+    bottom: 130px;
+    right: auto;
+    color: #181818;
+    padding-left: 150px;
+    margin-right:80px;
+    font-size: 37px;
+}
+
+#shop-hours {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 7px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+h4{
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.order-button {
+    border-radius: 30px;
+    background-color: #ffffff96;
+    border-style: solid;
+    border-color: #181818;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    letter-spacing: 2px;
+    bottom: 230px;
+    right: 150px;
+}
+
+.order-button span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+  
+.order-button span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    position: absolute;
+}
+  
+.order-button:hover span {
+    padding-right: 25px;
+}
+  
+.order-button:hover span:after {
+    opacity: 1;
+    right: 0;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: #D7CDC4;
+    padding-top: 20px;
+}
+
+#About{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+h2{
+    font-weight: 550;
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    padding-bottom: 15px;
+    margin-bottom: auto;
+    opacity: 80%;
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-weight: 80;
+    font-family: 'Playfair Display', serif;
+    color: #1f1f1f;
+    opacity: 80%;
+    letter-spacing: 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#special{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h5{
+    margin-top: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.item{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.item img{
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.arrow{
+    transform: translateY(40%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.arrow img:hover{
+    cursor: pointer;
+}
+
+#menu-title{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+div .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-top: 5px;
+}
+
+div .menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-top: 40px;
+}
+
+h6{
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 130px;
+    letter-spacing: 1.5px;
+    font-family: 'Playfair Display', serif;
+}
+
+h7{
+    font-size: 25px;
+    font-weight: 300;
+    padding-right: 130px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+}
+
+.line-1 {
+    height: 1px;
+    width: 85%;
+    background: #181818;
+    align-self: center;
+    z-index: 9;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 130px;
+    padding-top: 30px;
+    gap: 15px;
+}
+
+h8{
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 2.5px;
+    font-family: 'Playfair Display', serif;
+}
+
+h9{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+}
+
+#breif{
+    color:#525252;
+    margin-top: 0px;
+}
+
+p{
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #1f1f1f;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration:none;
+}
