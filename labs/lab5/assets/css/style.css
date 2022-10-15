@@ -24,6 +24,7 @@ body {
     color: white;
     padding-top: 10px;
 	opacity: 70%;
+	padding-left: 10px;
 }
 
 .navbar-item:hover{
