@@ -1,5 +1,5 @@
 function toggleSongs() {
-	let songsSecondHalf = document.getElementById("songs-second-half")
+	let songsSecondHalf = document.getElementById("item1")
 	songsSecondHalf.classList.toggle("hidden")
 }
 
