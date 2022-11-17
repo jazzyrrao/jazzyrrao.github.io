@@ -201,6 +201,10 @@ h5{
 
 }
 
+.img-scroll{
+    display: flex;
+}
+
 .item{
     padding-left: 25px;
     padding-right: 25px;
