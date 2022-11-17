@@ -44,11 +44,11 @@ document.getElementById("picture-2").onclick = unhideLightbox2;
 
 
 // TODO: do the same for #picture-3, write a function and then make it run on click
-function unhideLightbox2(){
+function unhideLightbox3(){
 	unhideLightbox("doggo3")
 }
 
-document.getElementById("picture-3").onclick = unhideLightbox2; 
+document.getElementById("picture-3").onclick = unhideLightbox3; 
 
 
 
