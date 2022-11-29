@@ -1,6 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
+    <head>
+        <title>Jazzy's Vending Machine</title>
+        <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap" rel="stylesheet">
+
+    </head>
+
     <body>
-        FINAL
+        <div class="nav">
+            <a href="about.html" class="about"> <img id="about-button" src="assets/img/about.png" alt="About Page"></a>
+        </div>
+
+        <div class="container">
+            <div class="vending-machine">
+                <img id="vm" src="assets/img/vendingmachine.png" alt="vending machine">
+
+                <div class="drinks">
+                    <img id="orange" src="assets/img/orange.png" alt="orange">
+                    <img id="strawberry" src="assets/img/strawberry.png" alt="strawberry">
+                    <img id="milktea" src="assets/img/milktea.png" alt="milktea">
+                    <img id="yakult" src="assets/img/Yakult.png" alt="Yakult">
+                </div>
+
+                <div class="drink-buttons">
+                    <div class="d-buttons"> 
+                        <div class="blue">
+                            <img id= "blue1" src="assets/img/blue-button.png" alt="blue button">
+                            <img id= "blue2" src="assets/img/blue-button.png" alt="blue button">
+                            <img id= "blue3" src="assets/img/blue-button.png" alt="blue button">
+                            <img id= "blue4" src="assets/img/blue-button.png" alt="blue button">
+                        </div>
+    
+                        <div class="green">
+                            <img id= "green1" src="assets/img/greeb-button.png" alt="green button">
+                            <img id= "green2" src="assets/img/greeb-button.png" alt="green button">
+                            <img id= "green3" src="assets/img/greeb-button.png" alt="green button">
+                            <img id= "green4" src="assets/img/greeb-button.png" alt="green button">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button"> 
+                    <img id="machine-button" src="assets/img/button.png" alt="button">
+                    <img id="machine-button-after" src="assets/img/after-button.png" alt="button-after">
+                </div>
+
+                <div class="the-drink">
+                    <div id="get-drink">
+                        <img id="orange1" src="assets/img/tilted_orange.png" alt="get-orange">
+                        <img id="strawberry1" src="assets/img/tilted_strawberry.png" alt="get-strawberry">
+                        <img id="milktea1" src="assets/img/titled_milktea.png" alt="get-milktea">
+                        <img id="yakult1" src="assets/img/tilted_yakult.png" alt="get-yakult">
+                    </div>
+                </div>
+
+                <div class="the-bar">
+                    <img id="bar" src="assets/img/bar.png" alt="bar">
+                </div>
+
+            </div>
+
+            <div class="drink-info">
+                <div> 
+                    <h1 id="title-text"> What To Drink</h1> 
+                </div>
+                <div id="info-box">
+                    <div id="stack">
+                        <div class="mystery" id="mystery-info">
+                            <img src="assets/img/mystery.png" alt="mystery-drink">
+                        </div>
+
+                        <div class="info-container" id="orange-info">
+                            <div class="left"> 
+                                <img class="info-drinks" src="assets/img/orange.png" alt="info-orange">
+                            </div>
+
+                            <div class="right"> 
+                                <div class="content">
+                                    <h2>Orange Juice</h2>
+                                    <ul id="description">
+                                        <li>A classic source of Vitamin C.</li>
+                                        <li>Refreshing.</li>
+                                        <li>Yeasty and fruity.</li>
+                                        <li>A tangy acidity.</li>
+                                        <li>Good any time of day.</li>
+                                    </ul>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-container" id="strawberry-info">
+                            <div class="left"> 
+                                <img class="info-drinks" src="assets/img/strawberry.png" alt="info-strawberry">
+                            </div>
+
+                            <div class="right"> 
+                                <div class="content">
+                                    <h2>Strawberry Milk</h2>
+                                    <ul id="description">
+                                        <li>Light and refreshing.</li>
+                                        <li>Creamy texture.</li>
+                                        <li>Basically strawberry shortcake in a bottle.</li>
+                                        <li>Milky-strawberry.</li>
+                                    </ul>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-container" id="milktea-info">
+                            <div class="left"> 
+                                <img class="info-drinks" src="assets/img/milktea.png" alt="info-milktea">
+                            </div>
+
+                            <div class="right"> 
+                                <div class="content">
+                                    <h2>Milktea</h2>
+                                    <ul id="description">
+                                        <li>Tea-based.</li>
+                                        <li>Creamy, and silky texture.</li>
+                                        <li>A hint of floral taste.</li>
+                                        <li>Chewy tapioca pearls.</li>
+                                    </ul>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-container" id="yakult-info">
+                            <div class="left"> 
+                                <img class="info-drinks" src="assets/img/Yakult.png" alt="info-milktea">
+                            </div>
+
+                            <div class="right"> 
+                                <div class="content">
+                                    <h2>Probiotic Milk</h2>
+                                    <ul id="description">
+                                        <li>A mix of citrus and vanilla.</li>
+                                        <li>Has a citrus flavor that is not similar to any other citrus fruit.</li>
+                                        <li>Yogurty and milky.</li>
+                                        <li>A sweet-yet-tart taste.</li>
+                                        <li>Rich in good bacteria.</li>
+                                    </ul> 
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </body>
+    <script type="text/javascript" src="assets/script/script.js"></script>
 </html>
